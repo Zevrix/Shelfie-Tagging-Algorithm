@@ -58,23 +58,6 @@ def get_x(a,b,c):
 L1 = [] #rows from Peter's library sheet
 L2 = [] #rows from L1 turned into lists
 
-#0 = title
-#1 = authors
-#2 = pages
-#3 = price
-#4 = currency
-#5 = subjects
-#6 = bisac
-
-#502/549 books have bisac tags
-#982 tags total
-
-#235 books with 1 tag
-#136 with 2
-#78 with 3
-#32 with 4
-#21 with >4
-
 with open('bisac.csv', newline ='') as csvfile:
     read = csv.reader(csvfile, delimiter=',')
     for row in read:
@@ -101,7 +84,7 @@ L4.remove(L4[0])
 L5 = [] #rows from shelby lib
 L6 = [] #rows from L5 turned into lists
 
-with open('shelby.csv', newline ='') as csvfile: #not needed until I decide to run random tests
+with open('shelby.csv', newline ='') as csvfile: 
     read = csv.reader(csvfile, delimiter=',')
     for row in read:
         L5.append('| '.join(row))
@@ -114,7 +97,7 @@ L7 = [] #[All Bisacs, # of children]
 child = open('data2.txt',"r")
 lines = child.readlines()
 
-for x in lines: #farms elements for L7 from data2.txt to save time
+for x in lines: 
     rows = x.split("\n")
     n = rows[0].index(' ')
     rows[1] = int(rows[0][n:])
@@ -149,7 +132,7 @@ while end != len(L10):
         a = L10[end].index(y)
         b = L10[end][a]
         c = L10[end]
-        L12[end] = ['a'] #makes sure connections are not made to other BISACs the book has
+        L12[end] = ['a'] 
         scores = get_x(b[:3],b[:6],b)
         n = 1
         o = 1
@@ -179,7 +162,7 @@ while end != len(L10):
         print("Stats from Shelfie: #ofTags (Lvl 1) = ",n," Count (Lvl 1) = ",scores[1]," #ofTags (Lvl 2) = ",o," Count (Lvl 2) = ",scores[3]," #ofTags (Lvl 3) = ",p," Count (Lvl 3) = ",scores[5])
         print("Node Score =", (l+m+q)*r)
         print()
-        L12[end] = c #resets L10
+        L12[end] = c 
     end = end + 1        
 
 for x in L8:
