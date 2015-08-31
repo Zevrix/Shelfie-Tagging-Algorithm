@@ -1,4 +1,3 @@
-
 Control
 
 11.090998070232311 ['SCI029000', 'Science ', ' Life Sciences ', ' Genetics & Genomics', '']
@@ -27,26 +26,26 @@ Experiment 1: No Root
 
 Experiment 2: 1/n Count
 
-3.1923382646953535 ['COM051230', 'Computers ', ' Software Development & Engineering ', ' ', '']
-2.8406208904602255 ['SCI015000', 'Science ', ' Cosmology', '', '']
-2.754733340273448 ['SCI070000', 'Science ', ' Life Sciences ', ' Zoology ', ' ']
-2.4088116023986967 ['SCI008000', 'Science ', ' Life Sciences ', ' Biology', '']
+6.384676529390707 ['COM051230', 'Computers ', ' Software Development & Engineering ', ' ', '']
+6.201606674720815 ['SCI029000', 'Science ', ' Life Sciences ', ' Genetics & Genomics', '']
+5.681241780920451 ['SCI015000', 'Science ', ' Cosmology', '', '']
+5.509466680546896 ['SCI070000', 'Science ', ' Life Sciences ', ' Zoology ', ' ']
+4.8176232047973935 ['SCI008000', 'Science ', ' Life Sciences ', ' Biology', '']
+4.73755912789485 ['SCI058000', 'Science ', ' Radiation', '', '']
+3.4629535293895044 ['FIC028000', 'Fiction ', ' Science Fiction ', ' ', '']
+3.2287273004912196 ['SOC037000', 'Social Science ', ' Future Studies', '', '']
 2.3768491253560633 ['OCC037000', 'Body, Mind & Spirit ', ' Feng Shui', '', '']
 2.3768491253560633 ['OCC016000', 'Body, Mind & Spirit ', ' Occultism', '', '']
-2.368779563947425 ['SCI058000', 'Science ', ' Radiation', '', '']
-2.3462654016460576 ['SOC011000', 'Social Science ', ' Folklore & Mythology', '', '']
-1.6143636502456098 ['SOC037000', 'Social Science ', ' Future Studies', '', '']
-1.5504016686802038 ['SCI029000', 'Science ', ' Life Sciences ', ' Genetics & Genomics', '']
 
 Experiment 3: 0.5+0.5/n Count
 
-6.233120329218461 ['SCI015000', 'Science ', ' Cosmology', '', '']
-6.072081172618254 ['SCI070000', 'Science ', ' Life Sciences ', ' Zoology ', ' ']
-5.89856664934633 ['COM051230', 'Computers ', ' Software Development & Engineering ', ' ', '']
-5.403938982797854 ['SCI029000', 'Science ', ' Life Sciences ', ' Genetics & Genomics', '']
-5.293757262400066 ['SCI008000', 'Science ', ' Life Sciences ', ' Biology', '']
-5.203685175884704 ['SCI058000', 'Science ', ' Radiation', '', '']
+8.646302372476566 ['SCI029000', 'Science ', ' Life Sciences ', ' Genetics & Genomics', '']
+8.310827105624615 ['SCI015000', 'Science ', ' Cosmology', '', '']
+8.096108230157672 ['SCI070000', 'Science ', ' Life Sciences ', ' Zoology ', ' ']
+7.864755532461774 ['COM051230', 'Computers ', ' Software Development & Engineering ', ' ', '']
+7.0583430165334216 ['SCI008000', 'Science ', ' Life Sciences ', ' Biology', '']
+6.938246901179606 ['SCI058000', 'Science ', ' Radiation', '', '']
+4.849990352321124 ['SOC037000', 'Social Science ', ' Future Studies', '', '']
+4.395954390643046 ['FIC028000', 'Fiction ', ' Science Fiction ', ' ', '']
 4.302159044720738 ['SOC011000', 'Social Science ', ' Folklore & Mythology', '', '']
-3.637492764240843 ['SOC037000', 'Social Science ', ' Future Studies', '', '']
-2.7474714941519034 ['FIC028000', 'Fiction ', ' Science Fiction ', ' ', '']
-2.7240104475203815 ['PSY000000', 'Psychology ', ' ', '', '']
+3.5748746737030483 ['PSY000000', 'Psychology ', ' ', '', '']
