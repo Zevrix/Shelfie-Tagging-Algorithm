@@ -85,7 +85,7 @@ L4.remove(L4[0])
 L5 = [] #rows from shelby lib
 L6 = [] #rows from L5 turned into lists
 
-with open('shelby.csv', newline ='') as csvfile: #not needed until I decide to run random tests
+with open('shelby.csv', newline ='') as csvfile: 
     read = csv.reader(csvfile, delimiter=',')
     for row in read:
         L5.append('| '.join(row))
@@ -98,7 +98,7 @@ L7 = [] #[All Bisacs, # of children]
 child = open('data2.txt',"r")
 lines = child.readlines()
 
-for x in lines: #farms elements for L7 from data2.txt to save time
+for x in lines: 
     rows = x.split("\n")
     n = rows[0].index(' ')
     rows[1] = int(rows[0][n:])
