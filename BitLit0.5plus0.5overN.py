@@ -3,7 +3,7 @@ from collections import Counter
 from random import randint
 from math import sqrt
 
-# In this experiment each BISAC contributes (0.5+0.5/n) to the total count where n is the number BISACs the book we are
+# In this experiment each BISAC contributes (0.5+0.5/n) to the total count where n is the number of BISACs the book we are
 # currently dealing with has, purpose is to make sure books with lots of BISACs don't crowd out books with less
 # this is less oppressive than the 1/n experiment
 
